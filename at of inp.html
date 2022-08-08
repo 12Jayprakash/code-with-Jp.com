@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Attributes of input tag</title>
+    </head>
+    <body>
+        <form autocomplete="off">
+          Name:<input type="text" tabindex="1" student name="name" autofocus="autofocus" required="required" pattern="^[A-Za-z ]*$"><br>
+          Mobile No:<input type="text" tabindex="3" required="required" pattern="^[6789]\d{9}$" name="mobile"><br>
+          Alternate Mobile No:<input type="text" tabindex="2" required="required" name="mobile"><br>
+          <input type="checkbox" checked="checked">completed<br>
+          <input type="file" multiple="multiple"><br>
+          Age:<input type="number" min="18" max="60" step="4" name="age"><br>
+          Email:<input type="email" name="email" required="required"><br>
+          search courses:<input type="search" list="list2" name="search"><br>
+          <datalist id="list2">
+        <option>java</option>
+        <option>java point</option>
+        <option>java script</option>
+          </datalist>
+          <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
